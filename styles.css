@@ -1,0 +1,30 @@
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+.jumbotron{
+	background: url("https://scontent-ord1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11040396_1458305094489381_8028212427571298877_n.jpg?oh=c3df18e53f6351a84793062fb10eb5de&oe=56447454") bottom center no-repeat;
+	
+}
+
+.jumbotron h1 {
+	color: #18bc9c;
+}
+
+.jumbotron p {
+	color: #EEEEEE;
+}
